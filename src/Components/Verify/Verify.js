@@ -256,7 +256,7 @@ const Verify = () => {
   const ImageUpload = (event) => {
     console.log(event.target.files[0]);
     const ImgData = new FormData();
-    ImgData.set("key", "7dcd69b2e8b47fe73fce90dd3a2e8a90");
+    ImgData.set("key", "3b61f7918dc1a39c2999937d1c16a97d");
     ImgData.append("image", event.target.files[0]);
 
     axios
@@ -272,7 +272,7 @@ const Verify = () => {
   const ImageUp = (event) => {
     console.log(event.target.files[0]);
     const ImgData = new FormData();
-    ImgData.set("key", "7dcd69b2e8b47fe73fce90dd3a2e8a90");
+    ImgData.set("key", "3b61f7918dc1a39c2999937d1c16a97d");
     ImgData.append("image", event.target.files[0]);
 
     axios
@@ -288,7 +288,7 @@ const Verify = () => {
   const ImageUploaded = (event) => {
     console.log(event.target.files[0]);
     const ImgData = new FormData();
-    ImgData.set("key", "7dcd69b2e8b47fe73fce90dd3a2e8a90");
+    ImgData.set("key", "3b61f7918dc1a39c2999937d1c16a97d");
     ImgData.append("image", event.target.files[0]);
 
     axios
@@ -304,7 +304,7 @@ const Verify = () => {
   const ImageUploads = (event) => {
     console.log(event.target.files[0]);
     const ImgData = new FormData();
-    ImgData.set("key", "7dcd69b2e8b47fe73fce90dd3a2e8a90");
+    ImgData.set("key", "3b61f7918dc1a39c2999937d1c16a97d");
     ImgData.append("image", event.target.files[0]);
 
     axios
